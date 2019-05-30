@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalInfo" customModule="CVCreater" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="AdY-xN-KX3">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fkF-h0-0dT">
+                    <rect key="frame" x="8" y="52" width="398" height="175"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="175" id="XwQ-he-Pwa"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nj8-Pr-G9y">
+                    <rect key="frame" x="8" y="237" width="398" height="617"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6U0-v1-eFX">
+                            <rect key="frame" x="0.0" y="0.0" width="398" height="50.5"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter First Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="13i-tV-p8T">
+                                    <rect key="frame" x="0.0" y="0.0" width="194" height="50.5"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Last Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KOX-xE-F7a">
+                                    <rect key="frame" x="204" y="0.0" width="194" height="50.5"/>
+                                    <nil key="textColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                        </stackView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Phone Number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I2l-53-qQi">
+                            <rect key="frame" x="0.0" y="60.5" width="398" height="50"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email ID" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UGC-jb-tzQ">
+                            <rect key="frame" x="0.0" y="120.5" width="398" height="50.5"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Address 1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ft-Zq-qvr">
+                            <rect key="frame" x="0.0" y="181" width="398" height="50"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address line 2" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ffl-hj-1Ts">
+                            <rect key="frame" x="0.0" y="241" width="398" height="50.5"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter DOB" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w6C-hh-cxI">
+                            <rect key="frame" x="0.0" y="301.5" width="398" height="50.5"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RX5-LF-3UC">
+                            <rect key="frame" x="0.0" y="362" width="398" height="255"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Dqm-Bg-SHq" firstAttribute="bottom" secondItem="nj8-Pr-G9y" secondAttribute="bottom" constant="8" id="6Ld-9M-R4k"/>
+                <constraint firstItem="Dqm-Bg-SHq" firstAttribute="trailing" secondItem="nj8-Pr-G9y" secondAttribute="trailing" constant="8" id="Fvo-Uz-FRQ"/>
+                <constraint firstItem="fkF-h0-0dT" firstAttribute="top" secondItem="Dqm-Bg-SHq" secondAttribute="top" constant="8" id="Mty-cY-VDd"/>
+                <constraint firstItem="nj8-Pr-G9y" firstAttribute="top" secondItem="fkF-h0-0dT" secondAttribute="bottom" constant="10" id="Q2p-ho-nLm"/>
+                <constraint firstItem="Dqm-Bg-SHq" firstAttribute="trailing" secondItem="fkF-h0-0dT" secondAttribute="trailing" constant="8" id="aLf-f6-Hgm"/>
+                <constraint firstItem="nj8-Pr-G9y" firstAttribute="leading" secondItem="Dqm-Bg-SHq" secondAttribute="leading" constant="8" id="csu-XN-abn"/>
+                <constraint firstItem="fkF-h0-0dT" firstAttribute="leading" secondItem="Dqm-Bg-SHq" secondAttribute="leading" constant="8" id="qPa-kc-k6i"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Dqm-Bg-SHq"/>
+            <point key="canvasLocation" x="340.57971014492756" y="-724.55357142857144"/>
+        </view>
+    </objects>
+</document>
